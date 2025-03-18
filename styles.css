@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-left: 76px;
+    margin-right: 23px;
+    margin-top: 44px;
+    display: inline-block;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;    
+    border: none;
+    cursor: pointer;
+    background: #665AE1;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-top: 217px;
+    margin-left: 125px;
+    display:inline-block;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+    width: 513px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+    width: 448px;
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+main {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+.button-main {
+    background: #ADFF00;
+    width: 210px;
+    height: 64px;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        margin-top: 17px;
+        margin-left: 135px;
+    }
+
+    h2 {
+        margin-top: -5px;
+        font-size: 40px;
+        margin-left: 85px;
+    }
+
+    h1 {
+        margin-top: 24px;
+        font-size: 70px;
+        margin-left: 60px;
+    }
+
+    .img-logo {
+        margin-left: 50px; 
+        width: 130%;
+        height: 100%; 
+    }
+
+    .button-main:hover {
+        opacity: .6;
+    }
+    
+}
+
+@media screen and (max-width: 330px) {
+    .img-logo {
+        margin-left: 110px
+    }
+}
