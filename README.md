@@ -2,7 +2,7 @@
                             
 <br />
 
-<h4 align="center">Este projeto foi realizado dentro do<a href="https://rodolfomori.com.br/devclub-comercial/">DevClub</a> com o intuito fazer um site responsivo.</h4>
+<h4 align="center">Este projeto foi realizado dentro do<a href="https://rodolfomori.com.br/devclub-comercial/"> DevClub</a> com o intuito fazer um site responsivo.</h4>
 
 <p align="center">
   <a href="#wrench-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
